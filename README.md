@@ -1,4 +1,4 @@
-# AIML Internship - Phase 2
+# AIML Internship Assignments
 
 Welcome to repository! This document serves as an exhaustive tracking log and syllabus breakdown for all hands-on milestones completed during this internship phase.
 
