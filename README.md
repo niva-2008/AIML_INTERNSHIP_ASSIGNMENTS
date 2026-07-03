@@ -29,4 +29,6 @@ Welcome to repository! This document serves as an exhaustive tracking log and sy
 * **Topic Explanation:** Building upon basic graphics, this module leveraged Seaborn’s high-level statistical plotting features to create complex and polished visualizations. The assignment implemented split Violin plots to examine distribution densities across groups, linear regression lines (`regplot`) to map relationships between continuous metrics, and annotated correlation heatmaps. It also introduced FacetGrids for multi-conditional subplots and Pair Plots for sweeping, dataset-wide matrix evaluations.
 * **Applied Link:** [day8 assignment](./day8/day8.py)
 
-
+### 🔹 Day 9: Introduction to SQL (SELECT, WHERE, ORDER BY)
+* **Topic Explanation:** This module marked the transition from flat-file architectures to robust Relational Database Management Systems (RDBMS). Utilizing Python's native `sqlite3` module integrated with Pandas DataFrames, the assignment focused on declarative data retrieval pipelines. Key operations explored included selecting specific structural attributes, implementing conditional filter logic using text and numerical parameters (`WHERE`), combining constraints via boolean operators (`AND`/`OR`), and configuring explicit multi-field sorting priorities (`ORDER BY`).
+* **Applied Link:** [day9 assignment](./day9/day9.py)
