@@ -62,3 +62,16 @@ Welcome to repository! This document serves as an exhaustive tracking log and sy
 * **Inventory Balancing:** Secure high-end high-ticket product availability during peak regional quarters mapped to high-value transactions.
 * **Loyalty Priority Funnels:** Set up a proactive VIP outreach channel targeting repeat accounts (e.g., Asha Sharma) to sustain customer lifetime value.
 * **Segmented Campaigns:** Split marketing budgets to run distinct ad campaigns—one focusing on volume for retail accounts, and another on bulk orders for corporate emails.
+### 🔑 Day 13: Advanced SQL (JOIN, GROUP BY, HAVING)
+* **Core Competencies:** Relational Schema Management (DDL), Sequential Key Interlinking (`INNER`/`LEFT JOIN`), Matrix Aggregations (`SUM`/`COUNT`/`AVG`), Condition Group Filtering (`HAVING`), and Query Execution Performance Optimization.
+* **Project Deliverable:** Designed and optimized the complete "NorthRetail" commercial relational database workspace, deploying advanced aggregated queries across multiple tracking tables to construct strategic management reports.
+
+#### 💡 Core Business Insights & Analytical Summary:
+1. **Product Group Revenue Concentration:** The *Electronics* product division remains our primary driver of financial margins, while utility hardware columns in *Accessories* capture high frequency but low absolute volume.
+2. **High-Value Client Concentration:** Strategic accounts such as **Amit Mishra** and **Asha Sharma** generate massive sales volumes over multi-stage checkouts, emphasizing the importance of dedicated high-value customer channels.
+3. **Geographic Revenue Densities:** Regional revenue mapping marks **Delhi** and **Pune** as top-tier high-revenue hubs, with **Mumbai** acting as a stable core transactional node.
+
+#### 🚀 Programmatic Strategy Recommendations:
+* **Indexed Relational Architecture:** Configure explicit B-Tree database indexes on critical relational constraints (`CustomerID`, `ProductID`) to preserve lightning-fast extraction patterns as rows scale.
+* **Aggregated Group Pruning:** Apply targeted structural pruning utilizing `WHERE` parameters early in execution blocks to filter rows before processing resource-heavy `GROUP BY` operations.
+* **VIP Marketing Funnels:** Leverage group-filtered tracking lists built via the `HAVING` clause to run automated premium retention campaigns targeting top-tier accounts.
