@@ -101,3 +101,17 @@ Welcome to repository! This document serves as an exhaustive tracking log and sy
 * **Asymmetric Dashboard Baselines:** Mandate the use of robust medians and IQRs rather than means inside standard reporting tools when visualizing right-skewed revenue variables.
 * **High-Value Client Ringfencing:** Set an explicit ₹31,200 percentile boundary line (90th cut-off) to isolate elite transaction accounts into high-tier account management paths.
 * **Retention Asset Strategy:** Direct investment toward accelerating repeat user traffic pipelines (driving visit frequency), as this metric demonstrates the highest covariance with customer value expansion.
+
+### 🧪 Day 16: Hypothesis Testing Basics (t-Test & Chi-Square)
+* **Core Competencies:** Inferential Statistics Frameworks, Null vs. Alternative Hypothesis Formulation ($H_0$ vs. $H_1$), Significance Levels ($\alpha$), p-Value Decoding Logic, Type I & Type II Error Mitigation, Paired/Independent $t$-Tests, and Categorical Contingency Matrix Audits (`pd.crosstab`).
+* [cite_start]**Project Deliverable:** Successfully completed the "GrowthRetail" corporate validation project, engineering automated significance checking loops to cross-verify client spend trends, location baselines, and regional customer groupings.
+
+#### 💡 Core Business Insights & Analytical Summary:
+1. **Verified Customer Value Lift (Scenario 1):** Paired $t$-test evaluation on user accounts proved that the net spending growth observed after launching the loyalty scheme is highly significant ($p < 0.001$). We reject the null hypothesis of 'zero change'—the initiative successfully expanded customer spending.
+2. **True Location Gaps Confirmed (Scenario 2):** Independent two-sample testing confirmed that the sales lead held by our primary store over the secondary space is a permanent structural trend rather than random variation ($p < 0.01$).
+3. **Geographic Product Covariance (Scenario 3):** Chi-Square contingency evaluation uncovered an explicit linear dependency between customer location and category selection ($p < 0.01$). Product choice is strongly associated with region.
+
+#### 🚀 Programmatic Strategy Recommendations:
+* **Scale High-Value Systems:** Proactively roll out the verified customer loyalty framework nationwide, as data confirms it successfully increases core transaction averages.
+* [cite_start]**Replicate Success Models:** Launch an internal operational review at the lower-performing store location to copy the successful floor layouts and inventory strategies driving high metrics at the top store[cite: 27].
+* [cite_start]**Differentiated Inventory Supply:** Restructure regional warehouse allocations to align with localized customer preferences—allocating more high-demand stock types based on the specific consumption trends isolated in each geographic node[cite: 24].
