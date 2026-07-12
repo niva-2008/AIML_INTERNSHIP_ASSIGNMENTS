@@ -35,4 +35,4 @@ Welcome to repository! This document serves as an exhaustive tracking log and sy
 *
 ### 🔹 Day 10:  EDA Report
 * [cite_start]**Topic Explanation:** The culmination of the Foundation phase involved executing a comprehensive, end-to-end Exploratory Data Analysis workflow on a messy retail transaction dataset[cite: 35, 50, 150]. [cite_start]The project integrated advanced data cleaning (handling type mismatches, unique key deduplication, and treating extreme input typos through median value imputation) with structured statistical grouping[cite: 230, 260, 278]. [cite_start]Findings were compiled into an industry-standard executive report highlighting revenue engines, customer segments, and strategic inventory mitigation roadmaps[cite: 365, 368].
-* **Applied Link:** [day10 assessment](./day10EDAREPORT/gadjet_eda.py)
+* **Applied Link:** [day10 assessment](./day10EDAREPORT/gadjet_eda.py).
