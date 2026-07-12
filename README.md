@@ -75,3 +75,16 @@ Welcome to repository! This document serves as an exhaustive tracking log and sy
 * **Indexed Relational Architecture:** Configure explicit B-Tree database indexes on critical relational constraints (`CustomerID`, `ProductID`) to preserve lightning-fast extraction patterns as rows scale.
 * **Aggregated Group Pruning:** Apply targeted structural pruning utilizing `WHERE` parameters early in execution blocks to filter rows before processing resource-heavy `GROUP BY` operations.
 * **VIP Marketing Funnels:** Leverage group-filtered tracking lists built via the `HAVING` clause to run automated premium retention campaigns targeting top-tier accounts.
+### 🎓 Day 14: SQL Case Study — End-to-End Business Analysis
+* **Core Competencies:** Advanced Relational Normalization, Subquery Matrix Layouts, Conditional Branch Structuring (`CASE WHEN`), Financial Ledger Auditing, Leakage Discovery Frameworks, and Collaborative SQL-to-Pandas Visual Output Piping.
+* **Project Deliverable:** Structured and executed a full corporate ledger investigation for the "UrbanGrocer" workspace ecosystem, mapping a 15-order tracking log to clear cash shortfalls, inactive client clusters, and category net performance indexes.
+
+#### 💡 Core Business Insights & Analytical Summary:
+1. **The Margin Paradox Variant:** The *Produce* vertical sits as our highest absolute volume driver by currency metrics, yet *Bakery* components yield significantly superior profit margins per rupee invested, showcasing an underexploited margin avenue.
+2. **Severe Account Financial Shortfall:** Data quality audits identified clear revenue leakages totaling over ₹20,000, caused by an unrecorded transaction ledger (`O-1012`) and a underpaid billing event (`O-1010`).
+3. **Geographic Operations Shutdown:** The analysis flags **Bengaluru (Karnataka)** as an inactive market node with zero successful revenue conversions, indicating localized shipping or logistics blocks.
+
+#### 🚀 Programmatic Strategy Recommendations:
+* **Relational Integrity Hardening:** Enforce strict foreign key constraints at the database level to prevent orphaned ledger accounts or unverified checkout transactions.
+* **Automated Financial Reconciliation:** Configure a permanent data-reconciliation script running a `LEFT JOIN` tracking routine to flag payment shortfalls or unpaid records at the end of each day.
+* **Category Optimization Flows:** Adjust layout recommendation systems to highlight high-margin Bakery assets alongside primary high-volume Produce boxes to lift overall blended margin percentages.
