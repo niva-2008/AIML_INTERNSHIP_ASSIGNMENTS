@@ -1,9 +1,7 @@
 import sqlite3
 import pandas as pd
 
-# =====================================================================
 # PHASE 1: INITIALIZE CAPSTONE DATABASE & RELATION SCHEMAS (DDL)
-# =====================================================================
 conn = sqlite3.connect(":memory:")
 cur = conn.cursor()
 
@@ -52,10 +50,7 @@ CREATE TABLE Payments (
     FOREIGN KEY (OrderID) REFERENCES Orders(OrderID)
 );
 """)
-
-# =====================================================================
 # PHASE 2: DATA INGESTION MATRIX
-# =====================================================================
 customers_data = [
     (1, "Asha Sharma", "Pune", "Maharashtra", "Premium", "2024-02-10"),
     (2, "Ravi Kumar", "Mumbai", "Maharashtra", "Regular", "2024-05-15"),
@@ -138,9 +133,8 @@ print("--- URBAN_GROCER RELATIONAL CAPSTONE INSTANTIATED SUCCESSFULLY ---")
 def run(sql_query):
     return pd.read_sql(sql_query, conn)
 
-# =====================================================================
+
 # DATA CAPSTONE SUMMARY REPORTS
-# =====================================================================
 print("\n[TASK 1: MASTER REVENUE CORE BASELINE KPIs]")
 print(run("""
 SELECT COUNT(DISTINCT o.OrderID) AS completed_orders,
