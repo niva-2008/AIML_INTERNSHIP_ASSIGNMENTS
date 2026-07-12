@@ -32,3 +32,7 @@ Welcome to repository! This document serves as an exhaustive tracking log and sy
 ### 🔹 Day 9: Introduction to SQL (SELECT, WHERE, ORDER BY)
 * **Topic Explanation:** This module marked the transition from flat-file architectures to robust Relational Database Management Systems (RDBMS). Utilizing Python's native `sqlite3` module integrated with Pandas DataFrames, the assignment focused on declarative data retrieval pipelines. Key operations explored included selecting specific structural attributes, implementing conditional filter logic using text and numerical parameters (`WHERE`), combining constraints via boolean operators (`AND`/`OR`), and configuring explicit multi-field sorting priorities (`ORDER BY`).
 * **Applied Link:** [day9 assignment](./day9/day9.py)
+*
+### 🔹 Day 10:  EDA Report
+* [cite_start]**Topic Explanation:** The culmination of the Foundation phase involved executing a comprehensive, end-to-end Exploratory Data Analysis workflow on a messy retail transaction dataset[cite: 35, 50, 150]. [cite_start]The project integrated advanced data cleaning (handling type mismatches, unique key deduplication, and treating extreme input typos through median value imputation) with structured statistical grouping[cite: 230, 260, 278]. [cite_start]Findings were compiled into an industry-standard executive report highlighting revenue engines, customer segments, and strategic inventory mitigation roadmaps[cite: 365, 368].
+* **Applied Link:** [day10 assessment](./day10EDAREPORT/gadjet_eda.py)
